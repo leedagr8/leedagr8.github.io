@@ -1,0 +1,131 @@
+body {
+    font: 15px/1.5 Arial, verdana, Georgia;
+    padding: 0;
+    margin: 0;
+    background-color: #D8D6D6;
+}
+
+/*Global Class Container*/
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul{
+        margin:0;
+        padding:0;
+    }
+
+/*Header*/
+header {
+    background: url(city.jpg) 100% -70px;
+    color:black;
+    border-bottom: black 3px solid;
+    min-height: 70px;
+    padding: 25px;
+
+}
+
+    header a {
+        color: blue;
+        text-decoration: none; /*removes default underline.*/
+        text-transform:uppercase;
+        font-size:15px;
+    }
+
+    
+
+    header li{
+        float:right;
+        display: inline;
+        padding: 0 20px 0 20px;
+    }
+
+    header #head{
+        
+    }
+
+    header #Head h1{
+        margin:0;
+        padding:0 0 0 40%;
+        font:24px, verdana;
+    }
+     header #Head img{
+           position: absolute;
+            top:0%;
+            left: 10%;
+            height:120px;
+            border:1px solid black;
+            display:inline;
+            
+    }
+
+    #right {
+        position:absolute;
+        float:right;
+        top: 0%;
+        left: 85%;
+    }
+
+   
+
+    header nav{
+        float:right;
+        margin-top: 10px;
+    }
+
+    /*showcase id tag */
+
+    #Showcase{
+        margin: 1% 0 0 40%;
+        text-align: center;
+        color:black;
+        border: 5px solid black;
+        border-width: 40%;
+        height: 50%;
+        
+    }
+
+    #Showcase .container{
+        padding:0 60px 0 60px;
+        font-size: 20px;
+        width:50%;
+        height:auto;
+    }
+
+    #profile{
+        position:absolute;
+        margin:1% 60% 0 0;
+        width:50%;
+        float:left;
+    }
+
+    #profile img{
+        float:left;
+        width:50%;
+       
+
+    }
+
+    footer{
+        padding:20px;
+        margin-top: 20%;
+        text-align: center;
+        border:black 2px solid;
+    }
+
+    footer .LI-profile-badge{
+        float:left;
+        padding:10px 0 0 0 ;
+    }
+
+   a .github-button{
+    float:right;
+    padding:10px 0 0 0;
+
+   }
+
+   footer p{
+    float:right;
+   }
